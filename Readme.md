@@ -1,7 +1,32 @@
-we have a setValue function that takes an argument newValue. Let's go through the different statements used:
+# Project Title
 
-require() is used to validate a condition. If the condition is not met, it throws an exception and reverts the transaction. In the example, we require the newValue to be greater than zero.
+Functions and Errors - ETH + AVAX
 
-assert() is used to check an assertion that should always be true. If the assertion fails, it indicates a bug in the contract logic, and the transaction is reverted. In the example, we assert that newValue is not equal to 42.
+## Description
 
-revert() is used to explicitly revert the transaction. It is typically used to provide a specific reason for the revert. In the example, if the newValue is 999, we explicitly revert the transaction with the message "Invalid value".
+In this following contract, we will be implementing revert(), assert() and require() statement. 
+
+The revert statement is typically used in conjunction with conditions or require statements to enforce specific conditions that must hold true during the execution of a contract
+
+The require statement is primarily used for input validation and to ensure that certain conditions are met before allowing the execution of a function or transaction to proceed
+
+The assert statement, on the other hand, is used to check for internal errors or contract invariant violations. It is meant to validate conditions that should always be true, regardless of user inputs or external factors
+
+
+## Getting Started
+
+### Installing
+
+* use this code to run it in remixIDE environment.
+* compile the contract.
+* deploy the contract and it will run properly.
+
+## Authors
+
+A R Ashutosh
+Uid 21BCS4839
+[A R Ashutosh](21bcs4839@cuchd.in)
+
+## License
+
+This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
