@@ -25,8 +25,6 @@ The assert statement, on the other hand, is used to check for internal errors or
 
 A R Ashutosh
 Uid 21BCS4839
-[A R Ashutosh](21bcs4839@cuchd.in)
 
-## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+
